@@ -1,0 +1,59 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Trangchu</title>
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            width: 100%;
+        }
+        .menu{
+
+        }
+            .menu li{
+                display: inline-block;
+                padding : 10px 20px;
+                background-color: blue;
+                margin: 0px -2px;
+            }
+                .menu :hover{
+                    background-color: #ffd800
+                }
+                .menu li a {
+                    color: white;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+    </style>
+</head>
+<body>
+    @*Menu -Tạo đường dẫn*@ 
+    <ul class="menu">
+        <li><a href="~/Shift/Trangchu">Home</a></li>
+        <li><a href="~/Shift/Image">Image</a></li>
+        <li><a href="~/Shift/Findkeypoint">Keypoint</a></li>
+        <li><a href="~/Shift/Findmatching">Find Match</a></li>
+        <li><a href="~/Shift/Matching">Matching</a></li>
+
+    </ul>
+
+    <div>
+
+    </div>
+</body>
+</html>
+
+
+
